@@ -1,0 +1,97 @@
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  height: 7vh;
+  align-items: center;
+  padding: 0px 15px;
+}
+.logo {
+  margin: 10vh 0 0 10vh;
+  height: 20vh;
+}
+.lenguaje{
+  align-self: flex-end;
+  border-radius: 5px;
+  background-color: black;
+  opacity: 0.7;
+  border: 1px solid grey;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+
+}
+.boton {
+  padding: 10px 24px;
+  margin: 10vh 10vh 0 0;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.boton-iniciar {
+  background-color: #e50914;
+  color: white;
+}
+.boton-iniciar:hover {
+  background-color: #a8050d;
+}
+.boton-iniciar::after {
+  content: "Iniciar sesión";
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+  color: white;
+  text-align: center;
+}
+
+.ver {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  margin-top: 16px;
+}
+
+.disfruta {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin-top: 32px;
+}
+.quieres {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin-top: 32px;
+}
+.boton-acceder {
+  background-color: #e50914;
+  color: white;
+}
+
+.boton-acceder:hover {
+  background-color: #a8050d;
+
+}
+
+.input {
+  border-radius: 5px;
+  background-color: black;
+  opacity: 0.7;
+  border: 1px solid grey;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+
+}
+
+.form-input {
+    flex-direction: row;
+  }
